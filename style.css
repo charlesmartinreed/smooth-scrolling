@@ -12,7 +12,7 @@ body {
 	height: 100vh;
 
 	/* remove scroll bars */
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .container {
@@ -20,12 +20,12 @@ body {
 	height: 100%;
 
 	/* CSS SMOOTH SCROLL PROPERTIES */
-	overflow-y: scroll;
-	scroll-behavior: smooth;
+	/* overflow-y: scroll;
+	scroll-behavior: smooth; */
 
 	/* snapping to sections */
 	/* works with scroll-snap-align  */
-	scroll-snap-type: y mandatory;
+	/* scroll-snap-type: y mandatory; */
 }
 
 .nav-bar {
@@ -70,7 +70,7 @@ section {
 	width: 100%;
 	height: 100vh;
 	/* works with scroll-snap-type  */
-	scroll-snap-align: center;
+	/* scroll-snap-align: center; */
 }
 
 section h1 {
